@@ -48,7 +48,7 @@ const NewsFeed = () => {
           <div className="post-card card post-card card mx-auto mt-3">
               <div className="card-body">
                 <h3 className="card-title font-weight-bold">{post.title}</h3>
-                <b className="card-title text-muted">Author: {user.name}</b>
+                <b className="card-title text-muted">Author: {users.name}</b>
                 <p className="card-text">{post.body}</p>
                 <div><Link to ={`/comments/${post.id}`} className="btn btn-primary">Show comments</Link></div>
                 <Routes>
